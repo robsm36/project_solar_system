@@ -1,3 +1,184 @@
 .App {
   text-align: center;
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  width: 1200px;
+  height: 3100px;
+}
+
+.background {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  background: url('./images/background.png');
+}
+
+
+.missionsBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  width: 1098px;
+  height: 2276px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+}
+
+.planetNames {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.planetNames p {
+  color: white;
+  display: flex;
+  align-items: flex-end
+}
+
+.planetsBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 1275px;
+  height: fit-content;
+}
+
+.planetsBox span {
+  width: 1284px;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+
+.planetsBox span h2 {
+  text-transform: uppercase;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 150%;
+  color: #FFFFFF;
+  letter-spacing: 20px;
+}
+
+.planetsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1284px;
+}
+
+.mercurio {
+  display: flex;
+  width: 41px;
+  height: 24px;
+}
+
+.venus {
+  display: flex;
+  width: 48px;
+  height: 56px;
+  margin-right: 30px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.terra {
+  display: flex;
+  width: 106px;
+  height: 79px;
+}
+
+.marte {
+  display: flex;
+  width: 66px;
+  height: 50px;
+}
+
+.jupiter {
+  display: flex;
+  width: 272px;
+  height: 204px;
+}
+
+.saturno {
+  display: flex;
+  width: 282.41px;
+  height: 210.9px;
+  transform: rotate(-16.53deg);
+}
+
+.urano {
+  display: flex;
+  width: 144px;
+  height: 109px;
+}
+
+.netuno {
+  display: flex;
+  width: 144px;
+  height: 107px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.missionCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 496px;
+  height: 192px;
+  background: rgba(24, 26, 37, 0.5);
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+  color: white;
+}
+
+.missionCard h1 {
+  width: 490px;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.missionCard span {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+}
+
+.missionCard p {
+  padding: 5px;
+}
+
+.missionCard hr {
+  width: 496px;
+  height: 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, .25);
+}

@@ -5,12 +5,13 @@ import SolarSystem from './components/SolarSystem';
 
 class App extends React.Component {
   render() {
+    document.body.classList.add('background');
     return (
-      <>
+      <div className="flex">
         <Header />
         <SolarSystem />
         <Missions />
-      </>
+      </div>
     );
   }
 }
