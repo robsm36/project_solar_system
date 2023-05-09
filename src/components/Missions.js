@@ -13,6 +13,7 @@ class Missions extends React.Component {
             year={ mission.year }
             country={ mission.country }
             destination={ mission.destination }
+            link={ mission.link }
           />
         ))}
       </div>

@@ -9,6 +9,7 @@ const Missions = [
     country: USA,
     destination: 'Vênus',
     className: 'mariner2',
+    link: 'https://www.nasa.gov/feature/60-years-ago-mariner-2-first-to-explore-venus/',
   },
   {
     name: 'Venera 4',
@@ -16,6 +17,7 @@ const Missions = [
     country: URSS,
     destination: 'Vênus',
     className: 'venera4',
+    link: 'https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1965-091A',
   },
   {
     name: 'Mariner 5',
@@ -23,6 +25,7 @@ const Missions = [
     country: USA,
     destination: 'Vênus',
     className: 'mariner5',
+    link: 'https://www.nasa.gov/feature/55-years-ago-mariner-5-explores-venus',
   },
   {
     name: 'Apollo 11',
@@ -30,6 +33,7 @@ const Missions = [
     country: USA,
     destination: 'Lua',
     className: 'apollo11',
+    link: 'https://www.nasa.gov/mission_pages/apollo/apollo-11.html',
   },
   {
     name: 'Mariner 10',
@@ -37,6 +41,7 @@ const Missions = [
     country: USA,
     destination: 'Mercúrio e Vênus',
     className: 'mariner10',
+    link: 'https://www.nasa.gov/feature/45-years-ago-mariner-10-first-to-explore-mercury/',
   },
   {
     name: 'Voyager 1',
@@ -44,6 +49,7 @@ const Missions = [
     country: USA,
     destination: INTERESTELAR,
     className: 'voyager1',
+    link: 'https://www.nasa.gov/feature/40-years-ago-voyager-1-explores-saturn',
   },
   {
     name: 'Venera 16',
@@ -51,6 +57,7 @@ const Missions = [
     country: URSS,
     destination: 'Vênus',
     className: 'venera16',
+    link: 'https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1983-054A',
   },
   {
     name: 'Phobos 1',
@@ -58,6 +65,7 @@ const Missions = [
     country: URSS,
     destination: 'Marte',
     className: 'phobos1',
+    link: 'https://nssdc.gsfc.nasa.gov/planetary/phobos.html',
   },
   {
     name: 'Phobos 2',
@@ -65,6 +73,7 @@ const Missions = [
     country: URSS,
     destination: 'Marte',
     className: 'phobos2',
+    link: 'https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1988-059A',
   },
   {
     name: 'Galileo',
@@ -72,6 +81,7 @@ const Missions = [
     country: USA,
     destination: 'Júpiter',
     className: 'galileo',
+    link: 'https://solarsystem.nasa.gov/missions/galileo/overview/',
   },
   {
     name: 'Mars Pathfinder',
@@ -79,6 +89,7 @@ const Missions = [
     country: USA,
     destination: 'Marte',
     className: 'marspathfinder',
+    link: 'https://www.nasa.gov/mission_pages/mars-pathfinder',
   },
   {
     name: 'Cassini-Huygens',
@@ -86,6 +97,7 @@ const Missions = [
     country: 'Estados Unidos e Europa',
     destination: 'Saturno',
     className: 'cassinihuygens',
+    link: 'https://www.nasa.gov/mission_pages/cassini/whycassini/index.html',
   },
   {
     name: 'Nozomi (Planeta B)',
@@ -93,6 +105,7 @@ const Missions = [
     country: 'Japão',
     destination: 'Marte',
     className: 'nozomib',
+    link: 'https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1998-041A',
   },
   {
     name: 'Estação Internacional Espacial',
@@ -100,6 +113,7 @@ const Missions = [
     country: 'Estados Unidos e Rússia',
     destination: 'Órbita terrestre',
     className: 'eis',
+    link: 'https://www.nasa.gov/content/fifteen-years-ago-international-space-station-assembly-begins',
   },
   {
     name: 'Mars Polar Lander',
@@ -107,6 +121,7 @@ const Missions = [
     country: USA,
     destination: 'Marte',
     className: 'marspolarlander',
+    link: 'https://mars.nasa.gov/mars-exploration/missions/polar-lander/',
   },
   {
     name: '2001 Mars Odyssey',
@@ -114,6 +129,7 @@ const Missions = [
     country: USA,
     destination: 'Marte',
     className: 'marsodyssey',
+    link: 'https://mars.nasa.gov/mars-exploration/missions/odyssey/',
   },
   {
     name: 'Genesis',
@@ -121,6 +137,7 @@ const Missions = [
     country: USA,
     destination: 'Terra',
     className: 'genesis',
+    link: 'https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2001-034A',
   },
   {
     name: 'MESSENGER',
@@ -128,6 +145,7 @@ const Missions = [
     country: USA,
     destination: 'Mercúrio',
     className: 'messenger',
+    link: 'https://www.nasa.gov/mission_pages/messenger/whymessenger/index.html',
   },
   {
     name: 'Telescópio Espacial Kepler',
@@ -135,6 +153,7 @@ const Missions = [
     country: USA,
     destination: INTERESTELAR,
     className: 'telespkepler',
+    link: 'https://www.nasa.gov/kepler/missiontimeline',
   },
   {
     name: 'Telescópio Espacial James Webb',
@@ -142,6 +161,7 @@ const Missions = [
     country: 'Estados Unidos, União Europeia e Canadá',
     destination: INTERESTELAR,
     className: 'telespjameswebb',
+    link: 'https://webb.nasa.gov/content/about/launch.html',
   },
 ];
 
