@@ -7,7 +7,7 @@ Aplicação desenvolvida como projeto do módulo de "Front-end" da escola de pro
 
 https://robsm36.github.io/project_solar_system/
 
-<b>Alguns conhecimentos aplicados:</b> Criação página HTML, estilização CSS, javascript e biblioteca React.
+<b>Alguns conhecimentos aplicados:</b> HTML, CSS, Javascript, React.
 
 <details><summary><b>O que é a Trybe?</b></summary>A Trybe é uma escola de desenvolvimento web que possui comprometimento genuíno com o sucesso profissional de suas pessoas estudantes. A Trybe é um curso livre de educação profissional, uma formação completa em Desenvolvimento Web que te prepara e conecta com o mercado de trabalho. São mais de 1500 horas de formação distribuídas entre estudo de conteúdo, aulas ao vivo, projetos individuais, em grupo e desenvolvimento de habilidades socioemocionais. Para conhecer mais, acesse: https://www.betrybe.com/ </details>
 
